@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 <img src="docs/assets/logo.png" alt="Browsewright Runner logo" width="110" />
@@ -126,13 +128,13 @@ docker restart browsewright-runner
 
 ```shell
 # Pin a specific release:
-curl -fsSL .../install.sh | sudo bash -s -- --version 0.9.1
+curl -fsSL https://raw.githubusercontent.com/Yuikij/browsewright-runner/main/install.sh | sudo bash -s -- --version 0.9.1
 
 # Build and install from a source checkout:
 ./install.sh --from-source
 
 # Install files only, no service registration:
-curl -fsSL .../install.sh | sudo bash -s -- --no-service
+curl -fsSL https://raw.githubusercontent.com/Yuikij/browsewright-runner/main/install.sh | sudo bash -s -- --no-service
 ```
 
 ```powershell
